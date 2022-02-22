@@ -1,0 +1,51 @@
+@media (max-width:1200px) {}
+
+/* Hidden checkbox , cross icon , menu bar */
+
+.input-check{
+    display: none;
+}
+.mobile-menu-cross{
+    display: none;
+}
+.mobile-menu-bar{
+    display: none;
+}
+
+@media (max-width:992px) {}
+@media (max-width:768px) {
+    .header-menu{
+        position: relative;
+    }
+    .input-check {
+        display: block;
+        width: 30px;
+        height: 30px;
+        position: relative;
+        left: 90%;
+        top: 40px;
+    }
+    .mobile-menu-cross {
+        display: block;
+        position: absolute;
+        left: 91%;
+        top: 30%;
+        font-size: 40px;
+        pointer-events: none;
+    }
+    .mobile-menu-bar {
+        display: block;
+        position: absolute;
+        left: 90%;
+        top: 32%;
+        font-size: 35px;
+        pointer-events: none;
+    }
+    .header-menu ul{
+        visibility: hidden;
+        opacity: 0;
+        display: none;
+    }
+}
+@media (max-width:576px) {}
+@media (max-width:480px) {}
